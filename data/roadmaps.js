@@ -2138,7 +2138,230 @@ roadmaps.nonAcademic.push(
         ]
       }
     ]
+  },
+  {
+    id: 'web3',
+    title: 'Web3 & Blockchain Development',
+    category: 'non-academic',
+    description: 'Learn blockchain fundamentals, smart contracts, decentralized apps (DApps), and Web3 infrastructure from scratch to advanced',
+    prerequisites: ['JavaScript/TypeScript', 'Basic Cryptography Understanding', 'HTTP & APIs', 'Frontend/Backend Knowledge'],
+    tools: [
+      'Solidity',
+      'Web3.js',
+      'Ethers.js',
+      'Hardhat',
+      'Truffle',
+      'Ganache',
+      'MetaMask',
+      'Remix IDE',
+      'Foundry',
+      'IPFS',
+      'The Graph'
+    ],
+    frameworks: [
+      'Ethereum',
+      'Polygon',
+      'Solana',
+      'Near Protocol',
+      'Hyperledger',
+      'Smart Contract Frameworks'
+    ],
+    projects: [
+      'Write Your First Smart Contract',
+      'ERC-20 Token Creation',
+      'NFT Minting DApp',
+      'Decentralized Voting System',
+      'Full Stack DApp with React + Solidity',
+      'DAO Governance System',
+      'Web3 Login/App Authentication',
+      'Build Your Own DeFi Swap (Mini Uniswap)'
+    ],
+    topics: [
+      {
+        id: 'web3-1',
+        title: 'Blockchain Fundamentals',
+        level: 'beginner',
+        subtopics: [
+          'What is Blockchain?',
+          'How Decentralization Works',
+          'Blocks, Transactions, and Nodes',
+          'Consensus Mechanisms (PoW, PoS, DPoS)',
+          'Public vs Private Blockchains',
+          'Crypto Wallets & Addresses',
+          'Gas, Fees, and Transactions',
+          'Reading Whitepapers (BTC, ETH)'
+        ]
+      },
+      {
+        id: 'web3-2',
+        title: 'Ethereum & Smart Contracts Basics',
+        level: 'beginner',
+        subtopics: [
+          'Ethereum Virtual Machine (EVM)',
+          'What is Solidity?',
+          'MetaMask Setup',
+          'Test Networks (Goerli, Sepolia)',
+          'Transfer ETH & Tokens',
+          'Remix IDE Deployment',
+          'Events & Logging in Smart Contracts',
+          'Basic Contract Security'
+        ]
+      },
+      {
+        id: 'web3-3',
+        title: 'Solidity Programming',
+        level: 'intermediate',
+        subtopics: [
+          'Variables, Structs, Arrays, Mappings',
+          'Modifiers & Error Handling',
+          'Inheritance & Interfaces',
+          'Payable Functions',
+          'ABI & Bytecode',
+          'Contract Deployment',
+          'Token Standards (ERC-20, ERC-721, ERC-1155)',
+          'Gas Optimization Techniques',
+          'Smart Contract Best Practices'
+        ]
+      },
+      {
+        id: 'web3-4',
+        title: 'Smart Contract Development Frameworks',
+        level: 'intermediate',
+        subtopics: [
+          'Hardhat Setup',
+          'Truffle Suite Setup',
+          'Ganache Local Blockchain',
+          'Writing Tests (Mocha/Chai)',
+          'Contract Verification',
+          'Script Automation',
+          'Foundry Basics',
+          'Debugging Contracts'
+        ]
+      },
+      {
+        id: 'web3-5',
+        title: 'DApp (Decentralized App) Development',
+        level: 'intermediate',
+        subtopics: [
+          'Web3.js vs Ethers.js',
+          'Connecting Frontend to Blockchain',
+          'Wallet Authentication (Web3Auth, RainbowKit)',
+          'Reading & Writing Smart Contract Data',
+          'React + Solidity Integration',
+          'Event Listening',
+          'Gas Estimation & Error Handling',
+          'State Management for DApps'
+        ]
+      },
+      {
+        id: 'web3-6',
+        title: 'Storage & Infrastructure',
+        level: 'advanced',
+        subtopics: [
+          'IPFS Integration',
+          'Filecoin Basics',
+          'Arweave',
+          'Decentralized Domain Names (ENS)',
+          'The Graph (Subgraphs)',
+          'Chainlink Oracles',
+          'Off-Chain Data Indexing',
+          'Building Subgraphs'
+        ]
+      },
+      {
+        id: 'web3-7',
+        title: 'DeFi (Decentralized Finance)',
+        level: 'advanced',
+        subtopics: [
+          'Liquidity Pools',
+          'AMMs (Automated Market Makers)',
+          'Uniswap v2/v3 Concepts',
+          'Borrow/Lending Protocols',
+          'Staking & Yield Farming',
+          'Flash Loans',
+          'Price Oracles',
+          'Tokenomics Design',
+          'DEX vs CEX'
+        ]
+      },
+      {
+        id: 'web3-8',
+        title: 'NFTs & Metaverse',
+        level: 'advanced',
+        subtopics: [
+          'NFT Standards & Metadata',
+          'Minting & Marketplace Creation',
+          'Royalties & IPFS Storage',
+          'On-chain vs Off-chain NFTs',
+          'NFT Staking',
+          'Soulbound Tokens',
+          'Metaverse Frameworks',
+          'Gaming Smart Contracts'
+        ]
+      },
+      {
+        id: 'web3-9',
+        title: 'Web3 Security',
+        level: 'advanced',
+        subtopics: [
+          'Common Vulnerabilities (Reentrancy, Overflows)',
+          'Smart Contract Auditing Basics',
+          'Access Control & Authorization',
+          'Front-Running Attacks',
+          'Flash Loan Exploits',
+          'Secure Upgradeable Contracts',
+          'Slither, MythX Tools',
+          'Test & Fuzzing'
+        ]
+      },
+      {
+        id: 'web3-10',
+        title: 'Cross-Chain & Layer 2',
+        level: 'expert',
+        subtopics: [
+          'Layer 2 Scaling (Optimism, Arbitrum, zkSync)',
+          'Rollups (Optimistic & ZK)',
+          'Bridges & Interoperability',
+          'Cross-Chain Messaging',
+          'Polkadot Parachains',
+          'Cosmos IBC',
+          'Multi-Chain Deployments',
+          'Cross-chain Swaps'
+        ]
+      },
+      {
+        id: 'web3-11',
+        title: 'Advanced Web3 Architecture',
+        level: 'expert',
+        subtopics: [
+          'Smart Contract Architecture',
+          'Gas Efficient Contract Patterns',
+          'Upgradeable Contracts (Proxy Pattern)',
+          'Event-Driven DApps',
+          'Web3 Backend (Node + Web3)',
+          'Full-Stack DApp Architecture',
+          'Building Your Own Blockchain',
+          'Consensus Algorithm Implementation'
+        ]
+      },
+      {
+        id: 'web3-12',
+        title: 'DAO & Governance',
+        level: 'expert',
+        subtopics: [
+          'What is a DAO?',
+          'Governance Tokens',
+          'Voting Mechanisms',
+          'On-chain vs Off-chain Governance',
+          'Snapshot Voting',
+          'Treasury Management',
+          'Building DAO Smart Contracts',
+          'Deploying a DAO Infrastructure'
+        ]
+      }
+    ]
   }
+
 
 );
 
