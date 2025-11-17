@@ -1205,7 +1205,673 @@ roadmaps.academic.push(
         ]
       }
     ]
+  },
+  {
+    id: 'dbe',
+    title: 'Database Engineering',
+    category: 'academic',
+    description: 'Learn how databases work, how to design them, and how to optimize queries and transactions',
+    prerequisites: ['Basic Programming', 'Discrete Mathematics'],
+    tools: ['MySQL', 'PostgreSQL', 'MongoDB', 'SQLite', 'Oracle DB'],
+    books: [
+      'Database System Concepts by Silberschatz, Korth & Sudarshan',
+      'Fundamentals of Database Systems by Elmasri & Navathe'
+    ],
+    useCases: ['Backend Development', 'Data Engineering', 'Analytics', 'Enterprise Applications'],
+
+    topics: [
+      {
+        id: 'dbe-1',
+        title: 'Introduction to Databases & Data Models',
+        level: 'beginner',
+        subtopics: [
+          'What is a Database?',
+          'DBMS vs File System',
+          'Database System Architecture',
+          'Data Abstraction',
+          'Data Independence',
+          'Database Schema and Instances',
+          'Three-Schema Architecture',
+          'Data Models Overview',
+          'Entity–Relationship (ER) Model',
+          'Relational Model'
+        ]
+      },
+
+      {
+        id: 'dbe-2',
+        title: 'Relational Query Languages',
+        level: 'beginner',
+        subtopics: [
+          'Relational Algebra',
+          'Relational Calculus',
+          'Introduction to SQL',
+          'DDL (Data Definition Language)',
+          'DQL (Data Query Language)',
+          'DML (Data Manipulation Language)',
+          'DCL (Data Control Language)',
+          'Integrity Constraints'
+        ]
+      },
+
+      {
+        id: 'dbe-3',
+        title: 'Relational Database Design',
+        level: 'intermediate',
+        subtopics: [
+          'Functional Dependencies',
+          'Armstrong’s Axioms',
+          'Dependency Preservation',
+          'Lossless Decomposition',
+          'Introduction to Normalization',
+          '1NF – First Normal Form',
+          '2NF – Second Normal Form',
+          '3NF – Third Normal Form',
+          'BCNF – Boyce Codd Normal Form',
+          '4NF – Fourth Normal Form',
+          '5NF – Fifth Normal Form'
+        ]
+      },
+
+      {
+        id: 'dbe-4',
+        title: 'Query Processing & Optimization',
+        level: 'advanced',
+        subtopics: [
+          'Steps in Processing an SQL Query',
+          'Catalog Information for Cost Estimation',
+          'Measures of Query Cost',
+          'Selection Operations',
+          'Join Operations',
+          'Equivalence Rules',
+          'Query Optimization Techniques'
+        ]
+      },
+
+      {
+        id: 'dbe-5',
+        title: 'Transaction Processing',
+        level: 'advanced',
+        subtopics: [
+          'Transaction Concepts',
+          'ACID Properties',
+          'Schedules',
+          'Serializability of Schedules'
+        ]
+      },
+
+      {
+        id: 'dbe-6',
+        title: 'Concurrency Control & Recovery',
+        level: 'advanced',
+        subtopics: [
+          'Concurrency Control',
+          'Lock-Based Protocols',
+          'Timestamping Methods',
+          'Deadlocks in Databases',
+          'Database Recovery Techniques'
+        ]
+      }
+    ]
+  },
+    {
+    id: 'coa',
+    title: 'Computer Organization and Architecture',
+    category: 'academic',
+    description: 'Learn how computer hardware components work, from basic organization to CPU, memory, and I/O operations',
+    prerequisites: ['Digital Logic', 'Basic Mathematics'],
+    tools: ['Logisim', 'MARS Simulator', 'Ripes Simulator', 'Proteus'],
+    books: [
+      'Computer Organization and Design by Patterson & Hennessy',
+      'Computer System Architecture by M. Morris Mano'
+    ],
+    useCases: ['Computer Architecture', 'Embedded Systems', 'Compiler Development', 'Hardware Design'],
+
+    topics: [
+      {
+        id: 'coa-1',
+        title: 'Introduction to Computer Organization',
+        level: 'beginner',
+        subtopics: [
+          'Basic Organization of a Computer',
+          'Basic Operational Concepts',
+          'Registers',
+          'Data Bus, Address Bus, Control Bus',
+          'Types of Bus',
+          'Harvard vs Von-Neumann Architecture',
+          'IAS Computer Architecture'
+        ]
+      },
+
+      {
+        id: 'coa-2',
+        title: 'Computer Arithmetic',
+        level: 'beginner',
+        subtopics: [
+          'Binary Arithmetic Operations',
+          'Decimal Arithmetic Operations',
+          'Floating Point Representation',
+          'Floating Point Arithmetic',
+          'General Multiplication Algorithm',
+          'Booth’s Multiplication Algorithm',
+          'Division Algorithms',
+          'Array Multipliers'
+        ]
+      },
+
+      {
+        id: 'coa-3',
+        title: 'Instruction Set Architecture',
+        level: 'intermediate',
+        subtopics: [
+          'General Instruction Format',
+          'Three Address Instructions',
+          'Two Address Instructions',
+          'One Address Instructions',
+          'Zero Address Instructions',
+          'Addressing Modes',
+          'Types of Instructions',
+          'Instruction Cycle'
+        ]
+      },
+
+      {
+        id: 'coa-4',
+        title: 'CPU Organization',
+        level: 'intermediate',
+        subtopics: [
+          'Data Path Overview',
+          'Single-Bus Data Path',
+          'Register Transfers',
+          'Fetching and Storing a Word in Memory',
+          'Control Sequences for Instructions',
+          'Multi-Bus Data Path',
+          'Simple ALU Design',
+          'Control Unit Operation',
+          'Hardwired Control Unit',
+          'Microprogrammed Control Unit',
+          'Control Word',
+          'Stack Organization',
+          'Reverse Polish Notation (RPN)',
+          'Evaluating Arithmetic Expressions using RPN',
+          'Subroutines and Nested Subroutines'
+        ]
+      },
+
+      {
+        id: 'coa-5',
+        title: 'Memory Organization',
+        level: 'advanced',
+        subtopics: [
+          'Overview of Computer Memory System',
+          'Characteristics of Memory System',
+          'Memory Hierarchy',
+          'Memory Classification',
+          'Semiconductor Memory Organization',
+          'Memory Cell Operation',
+
+          // Cache Memory
+          'Cache Memory Principles',
+          'Cache Levels (L1, L2, L3)',
+          'Cache Hit and Miss',
+          'Cache Write Policies',
+          'Cache Mapping Functions',
+          'Cache Page Replacement Algorithms',
+
+          // Virtual Memory
+          'Virtual Memory Concepts',
+          'Virtual Memory Page Replacement Algorithms',
+
+          // Additional Memory Concepts
+          'Associative Memory',
+          'Memory Interleaving'
+        ]
+      },
+
+      {
+        id: 'coa-6',
+        title: 'Input/Output Organization and Communication',
+        level: 'advanced',
+        subtopics: [
+          'Peripheral Devices',
+          'Accessing I/O Devices',
+          'I/O Interface',
+          'Interrupts',
+
+          // Types of Data Transfer
+          'Parallel Data Transfer',
+          'Serial Data Transfer',
+          'Synchronous Data Transfer',
+          'Asynchronous Data Transfer',
+          'Strobe Control',
+          'Handshaking',
+          'Asynchronous Serial Transfer',
+
+          // Modes of Transfer
+          'Programmed I/O',
+          'Interrupt-Initiated I/O',
+          'Direct Memory Access (DMA)',
+          'DMA Controller',
+          'I/O Channel and Processor'
+        ]
+      },
+
+      {
+        id: 'coa-7',
+        title: 'Parallel Processing & Advanced Architectures',
+        level: 'advanced',
+        subtopics: [
+          'Introduction to Pipelining',
+          'Instruction Pipeline',
+          'Arithmetic Pipeline',
+          'Speedup',
+          'Efficiency',
+          'Throughput',
+          'Pipeline Hazards',
+          'RISC Architecture',
+          'CISC Architecture'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'daa',
+    title: 'Design and Analysis of Algorithms',
+    category: 'academic',
+    description: 'Learn how to design efficient algorithms, analyze their complexity, and solve computational problems optimally',
+    prerequisites: ['Data Structures', 'Discrete Mathematics', 'Basic Programming'],
+    tools: ['Python', 'C++', 'Java', 'Online Judges', 'Visualizer Tools'],
+    books: [
+      'Introduction to Algorithms by Cormen, Leiserson, Rivest & Stein (CLRS)',
+      'Algorithm Design by Kleinberg & Tardos'
+    ],
+    useCases: ['Competitive Programming', 'Software Engineering', 'AI/ML Optimization', 'Research'],
+
+    topics: [
+      {
+        id: 'daa-1',
+        title: 'Algorithm Foundations',
+        level: 'beginner',
+        subtopics: [
+          'Introduction to Design and Analysis of Algorithms',
+          'Asymptotic Analysis',
+          'Growth of Functions',
+          'Asymptotic Notations (O, Ω, Θ)',
+          'Recurrences',
+          'Solution of Recurrences by Substitution Method',
+          'Recursion Tree Method',
+          'Master Method'
+        ]
+      },
+
+      {
+        id: 'daa-2',
+        title: 'Basic Algorithmic Techniques',
+        level: 'beginner',
+        subtopics: [
+          'Brute Force Algorithms',
+          'Divide and Conquer Technique',
+          'Quicksort Algorithm',
+          'Merge Sort Algorithm',
+          'Binary Search',
+          'Strassen’s Matrix Multiplication',
+          'Decrease and Conquer Strategy',
+          'Heap Sort'
+        ]
+      },
+
+      {
+        id: 'daa-3',
+        title: 'Dynamic Programming',
+        level: 'intermediate',
+        subtopics: [
+          'Elements of Dynamic Programming',
+          'Matrix Chain Multiplication',
+          'Longest Common Subsequence (LCS)',
+          '0/1 Knapsack Problem',
+          'Travelling Salesman Problem (TSP)'
+        ]
+      },
+
+      {
+        id: 'daa-4',
+        title: 'Greedy Algorithms',
+        level: 'intermediate',
+        subtopics: [
+          'Elements of Greedy Strategy',
+          'Activity Selection Problem',
+          'Fractional Knapsack Problem',
+          'Huffman Coding'
+        ]
+      },
+
+      {
+        id: 'daa-5',
+        title: 'Graph Algorithms',
+        level: 'intermediate',
+        subtopics: [
+          'Disjoint Set Data Structure',
+          'Disjoint Set Operations (Union/Find)',
+          'Minimum Spanning Trees',
+          'Kruskal’s Algorithm',
+          'Prim’s Algorithm',
+          'Single Source Shortest Paths',
+          'Bellman-Ford Algorithm',
+          'Dijkstra’s Algorithm',
+          'All Pairs Shortest Paths',
+          'Floyd–Warshall Algorithm'
+        ]
+      },
+
+      {
+        id: 'daa-6',
+        title: 'String Matching Algorithms',
+        level: 'advanced',
+        subtopics: [
+          'Introduction to String Matching',
+          'Naive String Matching Algorithm',
+          'Rabin-Karp Algorithm',
+          'Knuth–Morris–Pratt (KMP) Algorithm',
+          'Boyer–Moore Algorithm'
+        ]
+      },
+
+      {
+        id: 'daa-7',
+        title: 'Backtracking and Branch & Bound',
+        level: 'advanced',
+        subtopics: [
+          'Introduction to Backtracking',
+          'Eight Queens Problem',
+          'Backtracking for Knapsack',
+          'Introduction to Branch and Bound',
+          'Branch and Bound for Knapsack'
+        ]
+      },
+
+      {
+        id: 'daa-8',
+        title: 'Complexity Theory & NP-Completeness',
+        level: 'advanced',
+        subtopics: [
+          'Introduction to NP-Completeness',
+          'Class P and NP',
+          'NP-Complete Problems',
+          'NP-Hard Problems',
+          'Polynomial-Time Reductions',
+          'SAT Problem & Cook’s Theorem',
+          'Travelling Salesman Problem (TSP)',
+          'Hamiltonian Cycle Problem',
+          'Clique Problem',
+          'Approximation Algorithms'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'python',
+    title: 'Programming in Python',
+    category: 'academic',
+    description: 'Learn Python programming fundamentals, data structures, OOP, file handling, modules, and more',
+    prerequisites: ['Basic Computer Skills', 'Logical Thinking'],
+    tools: ['Python Interpreter', 'PyCharm', 'VS Code', 'Jupyter Notebook'],
+    books: [
+      'Python Programming by Reema Thareja',
+      'Learning Python by Mark Lutz'
+    ],
+    useCases: ['Software Development', 'Data Science', 'Automation', 'Web Development', 'Scripting'],
+
+    topics: [
+      {
+        id: 'py-1',
+        title: 'Python Basics',
+        level: 'beginner',
+        subtopics: [
+          'Introduction to Python',
+          'Features of Python',
+          'Applications of Python',
+          'Data Types',
+          'Keywords and Identifiers',
+          'Literals and Constants',
+          'Python Indentation',
+          'Operators and Expressions',
+          'Naming Conventions with Examples',
+          'Managing Input and Output',
+          'Conditional Statements',
+          'Looping Statements',
+          'Break and Continue',
+          'Pass and Return Statements',
+          'Nesting of Loops'
+        ]
+      },
+
+      {
+        id: 'py-2',
+        title: 'Modules and Packages',
+        level: 'beginner',
+        subtopics: [
+          'Built-in Modules',
+          'Import Statement',
+          'Creating and Using Packages',
+          'Date and Time Modules'
+        ]
+      },
+
+      {
+        id: 'py-3',
+        title: 'Data Structures in Python',
+        level: 'intermediate',
+        subtopics: [
+          'Arrays and Their Operations',
+          'Handling Strings and Characters',
+
+          // Lists
+          'List Slicing and Indexing',
+          'List Bounds and Cloning',
+          'Nested Lists',
+          'List Methods (append, extend, count, index, insert)',
+          'Mutability in Lists',
+          'Sorting and Reversing Lists',
+          'Removing Elements (remove, clear, pop)',
+          'Map and Filter Functions',
+
+          // Tuple
+          'Tuples and Tuple Methods',
+
+          // Sets
+          'Sets and Set Methods',
+
+          // Dictionary
+          'Dictionaries: Basic Operations',
+          'Dictionary Iterators',
+          'Dictionary Methods'
+        ]
+      },
+
+      {
+        id: 'py-4',
+        title: 'Functions',
+        level: 'intermediate',
+        subtopics: [
+          'Introduction to Functions',
+          'Passing Arguments',
+          'Anonymous Functions (Lambda Functions)',
+          'Recursive Functions'
+        ]
+      },
+
+      {
+        id: 'py-5',
+        title: 'Object-Oriented Programming',
+        level: 'advanced',
+        subtopics: [
+          'Classes and Objects',
+          'Class Methods',
+          'Encapsulation',
+          'Data Abstraction',
+          'Constructors and Destructors',
+          'Inheritance'
+        ]
+      },
+
+      {
+        id: 'py-6',
+        title: 'Exception Handling',
+        level: 'advanced',
+        subtopics: [
+          'Error Types',
+          'try-except Block',
+          'try-finally Block'
+        ]
+      },
+
+      {
+        id: 'py-7',
+        title: 'Strings and Regular Expressions',
+        level: 'advanced',
+        subtopics: [
+          'String Object Methods',
+          'Escape Sequences',
+          'Iterating Through Strings',
+          'String Module',
+          'String Formatting',
+          'Regular Expressions',
+          're Module Usage'
+        ]
+      },
+
+      {
+        id: 'py-8',
+        title: 'File Handling',
+        level: 'advanced',
+        subtopics: [
+          'Introduction to File Handling',
+          'File Operations (open, read, write, close)',
+          'Handling Directories'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'toc',
+    title: 'Theory of Computation',
+    category: 'academic',
+    description: 'Study formal languages, automata theory, computability, and complexity to understand the limits of computation',
+    prerequisites: ['Discrete Mathematics', 'Basic Programming'],
+    tools: ['JFLAP', 'FA Simulator', 'Automata Visualizers'],
+    books: [
+      'Introduction to Automata Theory, Languages, and Computation by Hopcroft, Motwani, Ullman',
+      'Automata and Computability by Kozen'
+    ],
+    useCases: ['Compiler Design', 'Language Processing', 'Formal Verification', 'Algorithmic Theory'],
+
+    topics: [
+
+      {
+        id: 'toc-1',
+        title: 'Finite Automata',
+        level: 'beginner',
+        subtopics: [
+          'Introduction to Finite Automata (FA)',
+          'Deterministic Finite Automata (DFA): Formal Definition',
+          'State Transition Diagrams',
+          'Transition Tables',
+          'Language of a DFA',
+          'Nondeterministic Finite Automata (NFA): Definition and Language',
+          'Equivalence of DFA and NFA',
+          'Applications of Finite Automata',
+          'Finite Automata with Epsilon Transitions (ε-NFA)',
+          'Eliminating Epsilon Transitions',
+          'Minimization of DFA',
+          'Finite Automata with Output',
+          'Moore Machines',
+          'Mealy Machines',
+          'Interconversion between Moore and Mealy'
+        ]
+      },
+
+      {
+        id: 'toc-2',
+        title: 'Regular Expressions and Regular Languages',
+        level: 'beginner',
+        subtopics: [
+          'Introduction to Regular Expressions',
+          'Identities of Regular Expressions',
+          'Converting DFA to Regular Expression',
+          'Converting Regular Expression to Automata',
+          'Applications of Regular Expressions',
+          'Regular Grammars: Definition and Types',
+          'FA for Regular Grammar',
+          'Regular Grammar from FA',
+          'Pumping Lemma for Regular Languages',
+          'Applications of Pumping Lemma',
+          'Closure Properties of Regular Languages'
+        ]
+      },
+
+      {
+        id: 'toc-3',
+        title: 'Context-Free Grammars and CFLs',
+        level: 'intermediate',
+        subtopics: [
+          'Context-Free Grammar (CFG): Definitions',
+          'Derivation Trees',
+          'Sentential Forms',
+          'Rightmost and Leftmost Derivations',
+          'Ambiguity in CFGs',
+          'Minimizing CFGs',
+          'Chomsky Normal Form (CNF)',
+          'Greibach Normal Form (GNF)',
+          'Pumping Lemma for CFLs',
+          'Properties of Context-Free Languages'
+        ]
+      },
+
+      {
+        id: 'toc-4',
+        title: 'Pushdown Automata & Turing Machines',
+        level: 'advanced',
+        subtopics: [
+          'Pushdown Automata (PDA): Definition and Model',
+          'Acceptance by Final State',
+          'Acceptance by Empty Stack',
+          'Equivalence of Final State and Empty Stack Acceptance',
+          'Equivalence of CFG and PDA',
+          
+          'Turing Machines (TM): Formal Definition',
+          'Behaviour and Transitions',
+          'Languages of a TM',
+          'TM as Accepters',
+          'TM as Computers of Integer Functions',
+          'Types of Turing Machines (Single Tape, Multi-Tape, Non-deterministic)'
+        ]
+      },
+
+      {
+        id: 'toc-5',
+        title: 'Decidability and Computational Hierarchy',
+        level: 'advanced',
+        subtopics: [
+          'Recursive Languages',
+          'Recursively Enumerable Languages (REL)',
+          'Properties of Recursive and RE Languages',
+          'Universal Turing Machine',
+          'The Halting Problem',
+          'Undecidable Problems about TMs',
+          'Context-Sensitive Languages and Linear Bounded Automata (LBA)',
+          'Chomsky Hierarchy',
+          'Decidability Concepts',
+          'Post’s Correspondence Problem (PCP)',
+          'Undecidability of PCP'
+        ]
+      }
+    ]
   }
+
+
+
+
+
 );
 
 // Adding more non-academic roadmaps
