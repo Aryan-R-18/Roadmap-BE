@@ -1,3 +1,5 @@
+const resources = require('./resources');
+
 const roadmaps = {
   academic: [
     {
@@ -385,6 +387,7 @@ const roadmaps = {
         'Real-time Chat Application',
         'Blog with CMS'
       ],
+      resources: resources['web-dev'],
       topics: [
         {
           id: 'web-1',
@@ -545,6 +548,7 @@ const roadmaps = {
         'Fitness Tracker',
         'Chat Application'
       ],
+      resources: resources['app-dev'],
       topics: [
         {
           id: 'app-1',
@@ -695,6 +699,7 @@ const roadmaps = {
         'Object Detection',
         'Chatbot Development'
       ],
+      resources: resources['ml'],
       topics: [
         {
           id: 'ml-1',
@@ -1892,6 +1897,7 @@ roadmaps.nonAcademic.push(
       'SIEM Dashboard',
       'Malware Analysis Lab'
     ],
+    resources: resources['cybersecurity'],
     topics: [
       {
         id: 'cyber-1',
@@ -2037,6 +2043,7 @@ roadmaps.nonAcademic.push(
       'Multi-Cloud Architecture',
       'Auto-Scaling Application'
     ],
+    resources: resources['cloud'],
     topics: [
       {
         id: 'cloud-1',
@@ -2179,6 +2186,7 @@ roadmaps.nonAcademic.push(
       'User Research Study',
       'Prototype and User Testing'
     ],
+    resources: resources['uiux'],
     topics: [
       {
         id: 'uiux-1',
@@ -2322,6 +2330,7 @@ roadmaps.nonAcademic.push(
       'RPG with Inventory System',
       'VR Experience'
     ],
+    resources: resources['game-dev'],
     topics: [
       {
         id: 'gamedev-1',
