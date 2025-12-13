@@ -29,6 +29,15 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', message: 'Server is running' });
 });
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'DevGuide+ API Server', 
+    version: '1.0.0',
+    status: 'running' 
+  });
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
