@@ -121,32 +121,42 @@ const resources = {
     notes: [
       {
         id: 'ml-notes',
-        title: 'Machine Learning Complete Guide',
-        description: 'Comprehensive ML guide from basics to advanced',
-        author: 'ML Academy',
+        title: 'Hands on Machine Learning ',
+        description: 'Scikit-Learn , Keras and tensorflow',
+        author: 'Aurelion Geren',
         type: 'pdf',
-        url: '/resources/ML_Complete_Guide.pdf',
+        url: '/resources/homl.pdf',
         downloadable: true
       },
       {
         id: 'python-ml-notes',
-        title: 'Python for Machine Learning',
+        title: 'Machine Learning with Python Tutorial',
         description: 'Python libraries and tools for ML',
-        author: 'Data Science Team',
+        author: 'Bernd Klein',
         type: 'pdf',
-        url: '/resources/Python_ML_Guide.pdf',
+        url: '/resources/pmlt.pdf',
         downloadable: true
       }
     ],
     videos: [
       {
         id: 'ml-playlist',
-        title: 'Complete Machine Learning Course',
+        title: '100 days of Machine Learning',
         description: 'Learn ML, AI, Python, TensorFlow, and data science',
-        author: 'CodeWithHarry',
-        playlistId: 'PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w',
-        embedUrl: 'https://www.youtube.com/embed/videoseries?si=gT6aGsSi0XfV_V3S&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w'
-      }
+        author: 'CampusX',
+        playlistId: 'PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH',
+        embedUrl: 'https://www.youtube.com/embed/videoseries?si=PZWsUgdxG1v7rBM5&amp;list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH'
+      },
+
+      {
+        id: 'ml-playlist-2',
+        title: '100 days of Deep Learning',
+        description: 'A complete end-to-end playlist on Deep Learning where topics like ANN, CNN, and RNN are covered.',
+        author: 'CampusX',
+        playlistId: 'PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn',
+        embedUrl: 'https://www.youtube.com/embed/videoseries?si=YvgKeJj6qKT2PQff&amp;list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn'
+      },
+
     ]
   },
 
