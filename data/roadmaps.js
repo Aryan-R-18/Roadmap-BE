@@ -11,6 +11,7 @@ const roadmaps = {
       tools: ['Logisim', 'Quartus', 'Vivado', 'ModelSim'],
       books: ['Digital Design by Morris Mano', 'Digital Fundamentals by Floyd'],
       useCases: ['CPU Design', 'Memory Systems', 'Digital Controllers', 'FPGA Programming'],
+      resources: resources['dld'],
       topics: [
         {
           id: 'dld-1',
@@ -114,6 +115,7 @@ const roadmaps = {
       tools: ['GDB', 'Valgrind', 'Visual Studio Code', 'IntelliJ IDEA'],
       books: ['Introduction to Algorithms by CLRS', 'Data Structures by Tanenbaum'],
       useCases: ['Algorithm Optimization', 'Database Systems', 'Operating Systems', 'Compilers'],
+      resources: resources['ds'],
       topics: [
         {
           id: 'ds-1',
@@ -249,6 +251,7 @@ const roadmaps = {
       tools: ['Eclipse', 'IntelliJ IDEA', 'Visual Studio', 'NetBeans'],
       books: ['Head First Design Patterns', 'Effective Java by Joshua Bloch'],
       useCases: ['Software Development', 'Game Development', 'Enterprise Applications'],
+      resources: resources['oop'],
       topics: [
         {
           id: 'oop-1',
@@ -843,6 +846,7 @@ roadmaps.academic.push(
     tools: ['MySQL', 'PostgreSQL', 'MongoDB', 'Oracle', 'SQL Server'],
     books: ['Database System Concepts by Silberschatz', 'SQL Performance Explained'],
     useCases: ['Web Applications', 'Enterprise Systems', 'Data Warehousing', 'Analytics'],
+    resources: resources['dbms'],
     topics: [
       {
         id: 'dbms-1',
@@ -962,6 +966,7 @@ roadmaps.academic.push(
     tools: ['Linux', 'VirtualBox', 'GDB', 'Valgrind'],
     books: ['Operating System Concepts by Silberschatz', 'Modern Operating Systems by Tanenbaum'],
     useCases: ['System Programming', 'Kernel Development', 'Device Drivers', 'Embedded Systems'],
+    resources: resources['os'],
     topics: [
       {
         id: 'os-1',
@@ -1084,6 +1089,7 @@ roadmaps.academic.push(
     tools: ['Wireshark', 'Cisco Packet Tracer', 'GNS3', 'Netcat'],
     books: ['Computer Networking by Kurose and Ross', 'TCP/IP Illustrated'],
     useCases: ['Network Administration', 'Cloud Computing', 'IoT', 'Cybersecurity'],
+    resources: resources['cn'],
     topics: [
       {
         id: 'cn-1',
@@ -1331,7 +1337,7 @@ roadmaps.academic.push(
       'Computer System Architecture by M. Morris Mano'
     ],
     useCases: ['Computer Architecture', 'Embedded Systems', 'Compiler Development', 'Hardware Design'],
-
+    resources: resources['coa'],
     topics: [
       {
         id: 'coa-1',
@@ -1491,7 +1497,7 @@ roadmaps.academic.push(
       'Algorithm Design by Kleinberg & Tardos'
     ],
     useCases: ['Competitive Programming', 'Software Engineering', 'AI/ML Optimization', 'Research'],
-
+    resources: resources['daa'],
     topics: [
       {
         id: 'daa-1',
@@ -1625,7 +1631,7 @@ roadmaps.academic.push(
       'Learning Python by Mark Lutz'
     ],
     useCases: ['Software Development', 'Data Science', 'Automation', 'Web Development', 'Scripting'],
-
+    resources: resources['python'],
     topics: [
       {
         id: 'py-1',
@@ -1769,7 +1775,7 @@ roadmaps.academic.push(
       'Automata and Computability by Kozen'
     ],
     useCases: ['Compiler Design', 'Language Processing', 'Formal Verification', 'Algorithmic Theory'],
-
+    resources: resources['toc'],
     topics: [
 
       {
