@@ -705,7 +705,7 @@ const resources = {
         description: 'VSSUT',
         year: '2025',
         type: 'pdf',
-        url: '/resources/COA End sem.pdf',
+        url: '/resources/PYQ/COA End sem.pdf',
         downloadable: true
       },
       {
@@ -714,7 +714,7 @@ const resources = {
         description: 'VSSUT',
         year: '2025',
         type: 'pdf',
-        url: '/resources/COAmidsem2025.pdf',
+        url: '/resources/PYQ/COAmidsem2025.pdf',
         downloadable: true
       }
     ],
